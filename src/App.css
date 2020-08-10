@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+body{
+  padding:0 !important;
+  margin:0 !important;
+  background:linear-gradient(180deg,lightgrey,#d3d3d3) !important;
+  color:#000 !important;
+  /* transition: opacity .15s linear !important; */
+  font-family: 'Poppins', sans-serif !important;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#home_container{
+  margin-top: 5rem !important;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    /* color:  	#00964b !important; */
+    font-size: 2rem !important;
+    text-shadow: 5px 2px 5px #000000;
   }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-link{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500 !important;
+  font-size: 1.5rem !important;
+}
+.navbar_Collapse{
+  border-radius: 2rem !important;
+  border-color: rgb(219, 218, 218) !important;
+}
+.add_user{
+  border-radius: 2rem !important;
+}
+.hoverEffect{
+  color:#fff !important;
+  border-bottom: 1px solid lightgray !important;
+  /* transition:  1s ease; */
+}
+.add_user_form{
+  box-shadow:5px 5px 15px rgba(0,0,0,0.6);
+  padding:2rem;
+  border-radius: 1rem;
 }

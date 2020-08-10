@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "name": "Bill Gates",
+      "username": "billgates",
+      "email": "bill.gates@gmail.com",
+      "phone": "2396321",
+      "website": "bill@gates.com",
+      "id": 1
+    },
+    {
+      "name": "Jeff bezos",
+      "username": "jeff",
+      "email": "jeff.z@gmail.com",
+      "phone": "456789",
+      "website": "jeff.b@support.com",
+      "id": 2
+    },
+    {
+      "name": "Mark Zukerburg",
+      "username": "mark",
+      "email": "mark.z@facebook.com",
+      "phone": "987535678",
+      "website": "mark@zukerburg.com",
+      "id": 3
+    },
+    {
+      "name": "Jack Ma",
+      "username": "jackalibaba112",
+      "email": "jack@ma.com",
+      "phone": "456789876",
+      "website": "jackma.ali.com",
+      "id": 4
+    }
+  ]
+}
